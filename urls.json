@@ -1,0 +1,21 @@
+{
+	"allowedUrls" : [
+		"https://wwwpprd.hondappc.com/ahmperfcenter/init.action",
+		"https://wwwpprd.hondappc.com/ahmperfcenter/tmpltHome.action",
+		"https://wwwpprd.hondappc.com/ahmperfcenter/paxProfile.action",
+		"https://wwwpprd.hondappc.com/ahmperfcenter/forgotPwdInit.action"
+		],
+	"pendingUrls" : "",
+	"blockedUrls" : [
+		"https://wwwpprd.hondappc.com/ahmperfcenter/logoutNoReEntry.action",
+		"https://wwwpprd.hondappc.com/ahmperfcenter/logout.action",
+		"https://wwwpprd.hondappc.com/ahmperfcenter/#"
+		],
+	"allowedFilenames" : [
+		"promoHome.action"
+		],
+	"allowedExtensions" : [
+		"pdf"
+		]
+
+}

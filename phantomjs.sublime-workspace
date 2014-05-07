@@ -1,0 +1,739 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"al",
+				"allowedExtensions"
+			],
+			[
+				"allowed",
+				"allowedFilenames"
+			],
+			[
+				"in",
+				"indexOf"
+			],
+			[
+				"bas",
+				"baseUrl"
+			],
+			[
+				"all",
+				"allowedActions"
+			],
+			[
+				"allo",
+				"allowedUrls"
+			],
+			[
+				"block",
+				"blockedUrls"
+			],
+			[
+				"visi",
+				"visitedUrls"
+			],
+			[
+				"start",
+				"startUrl"
+			],
+			[
+				"report",
+				"reportLink"
+			],
+			[
+				"nav",
+				"navLink"
+			],
+			[
+				"$peer",
+				"$peer_yellow"
+			],
+			[
+				"$atr",
+				"$attributes"
+			],
+			[
+				"variation",
+				"variation-id"
+			],
+			[
+				"varia",
+				"variation_id"
+			],
+			[
+				"form",
+				"formVariations"
+			],
+			[
+				"var",
+				"variation-id"
+			],
+			[
+				"link",
+				"linkObj"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"$group",
+				"$group_masters"
+			],
+			[
+				"group_master",
+				"group_masters_lkup  (function)"
+			],
+			[
+				"$post",
+				"$post_data"
+			],
+			[
+				"group",
+				"group_master"
+			],
+			[
+				"display",
+				"display_name"
+			],
+			[
+				"wp_po",
+				"wp_postaccess_group_detail"
+			],
+			[
+				"get_current",
+				"get_current_user_id"
+			],
+			[
+				"post_ty",
+				"post_type"
+			],
+			[
+				"$pac",
+				"$pac_db"
+			],
+			[
+				"end",
+				"endforeach"
+			],
+			[
+				"s",
+				"subsubsub"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"po",
+				"postaccesscontroller-details"
+			],
+			[
+				"current",
+				"current_value"
+			],
+			[
+				"pac_grp_dtl",
+				"pac_grp_dtl_id"
+			],
+			[
+				"pac_",
+				"pac_grp_dtl_id"
+			],
+			[
+				"pac_grp",
+				"pac_grp_mstr_id"
+			],
+			[
+				"pac",
+				"pac_group_users"
+			],
+			[
+				"pac_gr",
+				"pac_grp_mstr_id"
+			],
+			[
+				"remo",
+				"removeClass  (function)"
+			],
+			[
+				"cur_val",
+				"cur_val_noacs_msg_type"
+			],
+			[
+				"meta",
+				"meta_box_priority"
+			],
+			[
+				"post",
+				"postaccesscontroller_init"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "spider.js",
+			"settings":
+			{
+				"buffer_size": 3659,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "urls.json",
+			"settings":
+			{
+				"buffer_size": 601,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/arsdehnel/Sites/phantomjs/urls.json",
+		"/Users/arsdehnel/Sites/phantomjs/helpers.js",
+		"/Users/arsdehnel/Sites/phantomjs/404checker.js",
+		"/Users/arsdehnel/Sites/phantomjs/scrapeMenu.js",
+		"/Users/arsdehnel/Sites/phantomjs/screenshot.js",
+		"/Users/arsdehnel/Sites/phantomjs/allowedUrls.json",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/scss/style.scss",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/functions.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/woocommerce.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/woocommerce/checkout/form-checkout.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/plugins/woocommerce/includes/wc-template-functions.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/plugins/woocommerce/includes/class-wc-checkout.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/scss/_woocommerce.scss",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/scss/_messages.scss",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/woocommerce/single-product/add-to-cart/simple.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/woocommerce/loop/add-to-cart.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/woocommerce/content-product.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/scss/_buttons.scss",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/scss/_catalog.scss",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/scss/_grid.scss",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/scss/_wells.scss",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/page-myaccount.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/plugins/woocommerce/templates/myaccount/my-orders.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/woocommerce/myaccount/my-address.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/woocommerce/myaccount/form-edit-address.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/woocommerce/myaccount/my-account.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php",
+		"/Users/arsdehnel/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/arsdehnel/Library/Application Support/Sublime Text 2/Packages/AdvancedNewFile/Default (OSX).sublime-keymap",
+		"/Users/arsdehnel/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/arsdehnel/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/header.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/footer.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/page-checkout.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/woocommerce/cart/mini-cart.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/page-store.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/woocommerce/single-product/add-to-cart/variable.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/scss/bourbon/addons/_button.scss",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/scss/_mixins.scss",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/js/main.js",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/js/plugins.js",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/scss/_utilities.scss",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/scss/_junk.scss",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.js",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/plugins/woocommerce/templates/single-product/review.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/woocommerce/single-product/review.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/plugins/woocommerce/templates/single-product-reviews.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/woocommerce/single-product-reviews.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/plugins/woocommerce/templates/single-product/product-attributes.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/woocommerce/single-product/product-attributes.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/grouped.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/woocommerce/single-product/add-to-cart/grouped.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/variable.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/simple.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-config.php",
+		"/Users/arsdehnel/Sites/peerministryorg/index.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/plugins/woocommerce/includes/wc-template-hooks.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/woocommerce/loop/loop-start.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/underscores/style.css",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/wootique/style.css",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/style.css",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/index.php",
+		"/Users/arsdehnel/Sites/peerministryorg/wp-content/themes/peerministryorg/links.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/views/meta-options.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/views/groups-list.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/views/group-edit.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/classes/ui.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/classes/list-table.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/classes/db.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/post-access-controller.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/readme.txt",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/addquicktag/addquicktag.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/themes/arsdehnelnet/functions.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/admin-general.css",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/themes/arsdehnelnet/content-page.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/themes/arsdehnelnet/scss/_posts.scss",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/themes/arsdehnelnet/scss/_proposals.scss",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/themes/arsdehnelnet/page.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/themes/arsdehnelnet/single-noaccess.html",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/views/options.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/views/meta-box.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/meta-box.css",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/meta-box.js",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/views/user-profile.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/views/pca-options.php",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller/views/<?php",
+		"/Users/arsdehnel/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/arsdehnel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/arsdehnel/Sites/arsdehnelnet/wp-content/plugins/post-access-controller.php",
+		"/Users/arsdehnel/Documents/BI/N10/n10 bar chart.html",
+		"/Users/arsdehnel/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/arsdehnel/Downloads/dump.sql"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*.scss",
+			"*.php",
+			"",
+			"*.php",
+			"*.scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dinme",
+			"din-",
+			"woocommerce_template_loop_add_to_cart",
+			"woocommerce_after_shop_loop_item",
+			"chosen.css",
+			"chosen",
+			"checkout_form_billing",
+			"woocommerce_checkout_billing",
+			"woocommerce_form_field",
+			"cart-errors.php\nform-billing.php\nform-coupon.php\nform-login.php\nform-pay.php\nform-shipping.php\nreview-order.php\nwoocommerce_form_field",
+			"woocommerce_after_shop_loop_item",
+			"print_r",
+			"woocommerce_mini_cart",
+			"store faqs",
+			"Show FAQs",
+			"woocommerce_after_checkout_form",
+			".hide",
+			"Please choose product options",
+			"woocommerce_variation_select_change",
+			".btn-group",
+			".dropdown",
+			"woocommerce_after_shop_loop_item",
+			"add to ",
+			"woocommerce_after_shop_loop_item",
+			"woocommerce_get_product_thumbnail",
+			"woocommerce_template_loop_product_thumbnail",
+			"woocommerce_before_shop_loop_item_title",
+			"enqueue_style",
+			".image-wrapper",
+			"we",
+			"generate_checkbox_well",
+			"pac_grp_mstr_id",
+			"proposals",
+			"add_posts_page",
+			"proposal",
+			"postaccesscontroller_check",
+			"breadcrumb",
+			"?",
+			"group_master_lkup",
+			"meta-box.css",
+			"generate_checkbox_well",
+			"date(",
+			"wp_postaccess_group_detail",
+			"current_user",
+			"checkbox-well-item",
+			".ie8",
+			"plugin_dir_path( __FILE__ )",
+			"train_route_detail",
+			"library_master",
+			"library_detail"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "spider.js",
+					"settings":
+					{
+						"buffer_size": 3659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2997,
+								2997
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 571.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "urls.json",
+					"settings":
+					{
+						"buffer_size": 601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								594,
+								594
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/arsdehnel/Sites/peerministry.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 294.0,
+	"status_bar_visible": true
+}
