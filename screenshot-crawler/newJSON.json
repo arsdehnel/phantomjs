@@ -1,0 +1,14 @@
+{
+	"urls": [
+		{
+			"url": "http://aslaninst.local/",
+			"status": "allow"
+		}
+	],
+	"filenames": [
+		{
+			"filename": "x",
+			"status": "allow"
+		}
+	]
+}

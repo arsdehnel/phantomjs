@@ -1,0 +1,16 @@
+{
+	"allowedUrls" : [
+		"http://aslaninst.local/",
+		"http://aslaninst.local/training/"
+		],
+	"pendingUrls" : "",
+	"blockedUrls" : [
+		],
+	"allowedFilenames" : [
+		"promoHome.action"
+		],
+	"allowedExtensions" : [
+		"pdf"
+		]
+
+}

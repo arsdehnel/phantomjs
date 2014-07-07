@@ -1,12 +1,12 @@
 var links = [];
 var casper = require('casper').create();
-var baseUrl = 'https://www.hondappc.com/ahmperfcenter/';
-var url  = 'https://www.hondappc.com/ahmperfcenter/init.action';
+var baseUrl = 'http://aslaninst.local/';
+var url  = 'http://aslaninst.local/';
 var navLinks;
 var allNavLinks = new Array;
 
 function getMainMenuLinks() {
-    var links = document.querySelectorAll('#navbar_front a[href^=promoHome]');
+    var links = document.querySelectorAll('a[href^=promoHome]');
     return Array.prototype.map.call(links, function(e) {
         return e.getAttribute('href');
     });
@@ -29,14 +29,7 @@ function getTableLinks(){
 
 
 casper.start(url, function() {
-    // search for 'casperjs' from google form
-    this.fill('form[name=logonForm]', { logonId: 'dehnel', password: '1' }, true);
-});
-
-casper.then(function() {
-    // aggregate results for the 'casperjs' search
     links = this.evaluate(getMainMenuLinks);
-
 });
 
 casper.then(function() {

@@ -1,0 +1,6 @@
+loading some links twice
+log unknown urls into file
+replace existing file with newly created file
+format results
+create html report
+open html report on close

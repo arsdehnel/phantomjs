@@ -1,0 +1,42 @@
+{
+	"protocols": [
+		{
+			"protocol": "http",
+			"status": false
+		},
+		{
+			"protocol": "https",
+			"status": false
+		},
+		{
+			"protocol": "mailto",
+			"status": "blocked"
+		}
+	],
+	"urls": [
+		{
+			"url": "/",
+			"status": "allowed"
+		},
+		{
+			"url": "/#content",
+			"status": "pending"
+		},
+		{
+			"url": "http://www.facebook.com/sharer.php",
+			"status": "blocked"
+		}
+	],
+	"filenames": [
+		{
+			"filename": "/",
+			"status": "allowed"
+		}
+	],
+	"extensions": [
+		{
+			"extension": "gif",
+			"status": "allowed"
+		}
+	]
+}

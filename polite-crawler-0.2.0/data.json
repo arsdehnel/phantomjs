@@ -1,0 +1,16 @@
+{
+	"urls" : [
+		{
+			"url" : "http://aslaninst.local/",
+			"status" : "allow"
+		},
+		{
+			"url" : "http://aslaninst.local/training/",
+			"status" : "allow"
+		},
+		{
+			"url" : "http://aslaninst.local/providers/",
+			"status" : "allow"
+		}
+	]
+}

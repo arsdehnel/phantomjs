@@ -1,0 +1,56 @@
+{
+	"urls": [
+		{
+			"url": "/",
+			"status": "allowed"
+		},
+		{
+			"url": "/training/",
+			"status": "allowed"
+		},
+		{
+			"url": "/providers/",
+			"status": "allowed"
+		},
+		{
+			"url": "/#",
+			"status": "blocked"
+		},
+		{
+			"url": "mailto:info@aslaninst.com",
+			"status": "pending"
+		},
+		{
+			"url": "https://www.facebook.com/pages/Aslan-Institute/57758293600",
+			"status": "pending"
+		},
+		{
+			"url": "/calendar/",
+			"status": "pending"
+		},
+		{
+			"url": "/contact-us/",
+			"status": "pending"
+		},
+		{
+			"url": "/training/evolution-of-consciousness/",
+			"status": "pending"
+		},
+		{
+			"url": "/training/other-primary-training/",
+			"status": "pending"
+		},
+		{
+			"url": "/training/secondary/",
+			"status": "pending"
+		},
+		{
+			"url": "/training/and-then-another-secondary-one/",
+			"status": "pending"
+		},
+		{
+			"url": "/provider/provider-1/",
+			"status": "pending"
+		}
+	]
+}
