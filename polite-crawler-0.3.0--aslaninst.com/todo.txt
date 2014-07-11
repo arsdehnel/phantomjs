@@ -2,4 +2,3 @@ format results
 create html report
 open html report on close
 add status that means to check for 404/200 but don't crawl that page for links
-null response for some pages (handle urls that don't have protocol or base url)

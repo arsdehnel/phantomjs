@@ -1,7 +1,8 @@
 // Create instances
-var casper = require('casper').create({ verbose: true, logLevel: 'debug' });
+var casper = require('casper').create({ /*verbose: true, logLevel: 'debug'*/ });
 var utils = require('utils')
 var fs = require('fs')
+var functions = require('functions')
 
 // Set the start URL
 if( casper.cli.has('startUrl') ){
@@ -25,16 +26,22 @@ var visited = [];
 // Spider from the given URL
 function spider(url) {
 
+	// if URLs start with a / then we're going to append the base url before doing all the below
+	// just so we're starting on a level playing field
+	if( url.substring(0,1) === '/' ){
+		url = baseUrl + url;
+	}
+
 	// first we make sure to add this to the list of visited URLs
 	// otherwise we could (and probably would) get into an infinite loop
-	if( indexOf.call(visited, url) === -1 ){
+	if( functions.indexOf.call(visited, url) === -1 ){
 		visited.push(url);
 	}else{
 		console.log(casper.colorizer.format('REPEAT', { fg: 'red', bold: true})+' already visited '+url);
 		//return;
 	}
 
-	urlStatus = getUrlStatus( json, url );
+	urlStatus = functions.getUrlStatus( json, url );
 
 	casper.log( url + ' status ' + urlStatus, 'debug' );
 
@@ -73,8 +80,12 @@ function spider(url) {
 
 				// Add newly found URLs to the stack
 				Array.prototype.forEach.call(links, function(link) {
-					//var newUrl = helpers.absoluteUri(baseUrl+'/', link);
-					if( indexOf.call( visited, link ) === -1 && indexOf.call( pendingUrls, link ) === -1 ) {
+
+					if( link.substring(0,1) === '/' ){
+						link = baseUrl + link;
+					}
+
+					if( functions.indexOf.call( visited, link ) === -1 && functions.indexOf.call( pendingUrls, link ) === -1 ) {
 						//casper.echo( 'visited check: link '+link+', result '+indexOf.call( visited, link )+', visitedLength'+visited.length)
 						pendingUrls.push(link);
 					}
@@ -131,108 +142,3 @@ casper.then(function(){
 
 // Start the run
 casper.run();
-
-function getUrlStatus( json, url ){
-
-	var retVal = false;
-
-	var protocol = url.substring(0,url.indexOf(':'));
-	var relUrl = url.replace( baseUrl, '')//.substring(0,1);
-	    relUrl = relUrl.substring(0,( relUrl.indexOf('?') > 0 ? relUrl.indexOf('?') : relUrl.length ))
-	var filename = relUrl.substring(relUrl.lastIndexOf('/')+1);
-	    filename = filename.substring(0, ( filename.indexOf('?') > 0 ? filename.indexOf('?') : filename.length ) );
-	var extension = filename.split('.').pop();
-
-	casper.log( relUrl + ' ? index ' + ( relUrl.indexOf('?') ? relUrl.indexOf('?') : relUrl.length ), 'debug' );
-
-	casper.log( "protocol: "+protocol+", relUrl: "+relUrl+", filename: "+filename+", extension: "+extension, 'debug' );
-
-	// first check protocol
-	var protocolStatus = arrSearch( json.protocols, protocol, "protocol" );
-
-	casper.log( "protocolStatus: "+protocolStatus, 'debug' );
-
-	if( protocolStatus !== false ){
-		retVal = protocolStatus;
-	}else{
-
-		// then look for URL status
-		var urlStatus = arrSearch( json.urls, relUrl, "url" );
-
-		casper.log( "urlStatus: "+urlStatus, 'debug' );
-
-		if( urlStatus !== false ){
-			retVal = urlStatus;
-		}else{
-
-			//now look for a matching filename
-			filenameStatus = arrSearch( json.filenames, filename, "filename" );
-
-			casper.log( "filenameStatus: "+filenameStatus, 'debug' );
-
-			if( filenameStatus ){
-				retVal = filenameStatus;
-			}else{
-
-				// finally check to see if the extension has a special status
-				extStatus = arrSearch( json.extensions, extension, "extension" );
-
-				casper.log( "extStatus: "+extStatus, 'debug' );
-
-				if( extStatus ){
-					retVal = extStatus;
-				}
-
-			}
-
-		}
-
-	}
-
-	return retVal;
-
-}
-
-function arrSearch( arr, val, attr ){
-
-	// if left as null this will tell the calling function that we didn't find something
-	var returnVal = false;
-
-	// go through all the urls
-	for( var crnt in arr ){
-
-		// do we match exactly
-		if( arr[crnt][attr] === val ){
-
-			// return the status
-			returnVal = arr[crnt].status;
-
-		}
-
-	}
-
-	return returnVal;
-
-}
-
-
-var indexOf = function(needle) {
-    if(typeof Array.prototype.indexOf === 'function') {
-        indexOf = Array.prototype.indexOf;
-    } else {
-        indexOf = function(needle) {
-            var i = -1, index = -1;
-
-            for(i = 0; i < this.length; i++) {
-                if(this[i] === needle) {
-                    index = i;
-                    break;
-                }
-            }
-
-            return index;
-        };
-    }
-
-    return indexOf.call(this, needle);
-};
