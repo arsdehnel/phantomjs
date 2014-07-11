@@ -1,10 +1,6 @@
 // Create instances
-var casper = require('casper').create({ /*verbose: true, logLevel: 'debug'*/ });
+var casper = require('casper').create({ verbose: true, logLevel: 'debug' });
 var utils = require('utils')
-var json = require('data.json')
-//require('utils').dump(urls);
-//casper.echo(urls.allowedUrls);
-var helpers = require('helpers')
 var fs = require('fs')
 
 // Set the start URL
@@ -13,7 +9,14 @@ if( casper.cli.has('startUrl') ){
 }
 
 var baseUrl = startUrl.substring(0,startUrl.length-1);
-//var baseUrl = 'http://aslaninst.local';
+
+// get the datafile name
+if( casper.cli.has('datafile') ){
+	var datafile = casper.cli.raw.get('datafile');
+}
+
+// import it
+var json = require(datafile)
 
 // URL variables
 var pendingUrls = ( json.pendingUrls ? json.pendingUrls : [])    //urls that have no decision made yet
@@ -33,6 +36,8 @@ function spider(url) {
 
 	urlStatus = getUrlStatus( json, url );
 
+	casper.log( url + ' status ' + urlStatus, 'debug' );
+
 	switch( urlStatus ){
 
 		case "allowed":
@@ -40,7 +45,7 @@ function spider(url) {
 			casper.open(url).then(function() {
 
 				//this.echo(url.replace( baseUrl, '').replace(/\//g,'_').substring(1,2000));
-				var captureFilename = url.replace( baseUrl, '').replace(/\//g,'_').substring(1,2000) + '.png';
+				var captureFilename = url.replace( baseUrl, '').replace(/\//g,'_').replace(/\?/g,'').substring(1,2000) + '.png';
 				if( captureFilename === '.png' ){
 					captureFilename = 'home.png';
 				}
@@ -120,7 +125,7 @@ casper.start('http://www.google.com/', function() {
 });
 
 casper.then(function(){
-	fs.write('data.json', JSON.stringify(json,null,'\t'), 'w');
+	fs.write(datafile, JSON.stringify(json,null,'\t'), 'w');
 })
 
 
@@ -129,17 +134,23 @@ casper.run();
 
 function getUrlStatus( json, url ){
 
-	var retVal;
+	var retVal = false;
 
 	var protocol = url.substring(0,url.indexOf(':'));
-	var relUrl = url.replace( baseUrl, '');
-	var filename = relUrl.substring(0, ( relUrl.indexOf('?') ? relUrl.indexOf('?') : 2000 ) );
+	var relUrl = url.replace( baseUrl, '')//.substring(0,1);
+	    relUrl = relUrl.substring(0,( relUrl.indexOf('?') > 0 ? relUrl.indexOf('?') : relUrl.length ))
+	var filename = relUrl.substring(relUrl.lastIndexOf('/')+1);
+	    filename = filename.substring(0, ( filename.indexOf('?') > 0 ? filename.indexOf('?') : filename.length ) );
 	var extension = filename.split('.').pop();
 
-	//casper.echo('URL: '+url+', protocol: '+protocol+', relUrl: '+relUrl+', filename: '+filename+', extension: '+extension);
+	casper.log( relUrl + ' ? index ' + ( relUrl.indexOf('?') ? relUrl.indexOf('?') : relUrl.length ), 'debug' );
+
+	casper.log( "protocol: "+protocol+", relUrl: "+relUrl+", filename: "+filename+", extension: "+extension, 'debug' );
 
 	// first check protocol
 	var protocolStatus = arrSearch( json.protocols, protocol, "protocol" );
+
+	casper.log( "protocolStatus: "+protocolStatus, 'debug' );
 
 	if( protocolStatus !== false ){
 		retVal = protocolStatus;
@@ -148,7 +159,7 @@ function getUrlStatus( json, url ){
 		// then look for URL status
 		var urlStatus = arrSearch( json.urls, relUrl, "url" );
 
-		//casper.echo( urlStatus );
+		casper.log( "urlStatus: "+urlStatus, 'debug' );
 
 		if( urlStatus !== false ){
 			retVal = urlStatus;
@@ -157,6 +168,8 @@ function getUrlStatus( json, url ){
 			//now look for a matching filename
 			filenameStatus = arrSearch( json.filenames, filename, "filename" );
 
+			casper.log( "filenameStatus: "+filenameStatus, 'debug' );
+
 			if( filenameStatus ){
 				retVal = filenameStatus;
 			}else{
@@ -164,10 +177,10 @@ function getUrlStatus( json, url ){
 				// finally check to see if the extension has a special status
 				extStatus = arrSearch( json.extensions, extension, "extension" );
 
+				casper.log( "extStatus: "+extStatus, 'debug' );
+
 				if( extStatus ){
 					retVal = extStatus;
-				}else{
-					retVal = "pending";
 				}
 
 			}

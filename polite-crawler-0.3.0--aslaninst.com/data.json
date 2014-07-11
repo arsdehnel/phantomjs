@@ -19,23 +19,138 @@
 			"status": "allowed"
 		},
 		{
-			"url": "/#content",
+			"url": "http://www.facebook.com/sharer.php",
+			"status": "blocked"
+		},
+		{
+			"url": "#content",
+			"status": "blocked"
+		},
+		{
+			"url": "http://www.constantcontact.com/safesubscribe.jsp",
+			"status": "blocked"
+		},
+		{
+			"url": "http://www.constantcontact.com/jmml/email-newsletter.jsp",
+			"status": "blocked"
+		},
+		{
+			"url": "http://www.wellnesswithclaudine.com/",
+			"status": "blocked"
+		},
+		{
+			"url": "http://catherinecarpenter.com",
+			"status": "blocked"
+		},
+		{
+			"url": "http://www.therasolutions.net",
+			"status": "blocked"
+		},
+		{
+			"url": "http://www.PeacefulPracticeMN.com/",
+			"status": "blocked"
+		},
+		{
+			"url": "http://www.awakeninglove.org",
+			"status": "blocked"
+		},
+		{
+			"url": "http://www.GaryRBeaver.com",
+			"status": "blocked"
+		},
+		{
+			"url": "http://www.christinemlarson.com",
+			"status": "blocked"
+		},
+		{
+			"url": "http://www.connietherapy.com",
+			"status": "blocked"
+		},
+		{
+			"url": "http://www.evolvtherapy.com",
+			"status": "blocked"
+		},
+		{
+			"url": "http://www.melaniealford.com",
+			"status": "blocked"
+		},
+		{
+			"url": "http://www.JudiRossHolisticTherapy.com",
+			"status": "blocked"
+		},
+		{
+			"url": "https://events.r20.constantcontact.com/register/event?oeidk=a07e5ne6oi271a3a119",
+			"status": "blocked"
+		},
+		{
+			"url": "http://tedxtalks.ted.com/video/TEDxBozeman-Pete-Strom-Butter-S;Recent",
+			"status": "blocked"
+		},
+		{
+			"url": "http://www.ted.com/talks/judy_macdonald_johnston_prepare_for_a_good_end_of_life.html?source=email#.UaZ5zkSOCIo.email",
+			"status": "blocked"
+		},
+		{
+			"url": "http://www.ted.com/talks/peter_saul_let_s_talk_about_dying.html?source=email#.UaZ4PLZYveM.email",
+			"status": "blocked"
+		},
+		{
+			"url": "http://www.couplecommunication.com/",
+			"status": "blocked"
+		},
+		{
+			"url": "http://wordpress.org/",
+			"status": "blocked"
+		},
+		{
+			"url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=49FEL3X2JM2VW",
+			"status": "blocked"
+		},
+		{
+			"url": "http://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=4141+Old+Sibley+Memorial+Highway,+Eagan,+MN&aq=0&oq=4141+Old+Sibley&sll=37.0625,-95.677068&sspn=44.879582,105.117187&t=m&ie=UTF8&hq=&hnear=4141+Old+Sibley+Memorial+Hwy,+Eagan,+Minnesota+55122&ll=44.808701,-93.225069&spn=0.01973,0.051327&z=14",
+			"status": "blocked"
+		},
+		{
+			"url": "https://events.r20.constantcontact.com/register/event?oeidk=a07e5ne6oi271a3a119",
 			"status": "pending"
 		},
 		{
-			"url": "http://www.facebook.com/sharer.php",
-			"status": "blocked"
-		}
-	],
-	"filenames": [
+			"url": "http://www.ted.com/talks/judy_macdonald_johnston_prepare_for_a_good_end_of_life.html?source=email#.UaZ5zkSOCIo.email",
+			"status": "pending"
+		},
 		{
-			"filename": "/",
-			"status": "allowed"
+			"url": "http://www.ted.com/talks/peter_saul_let_s_talk_about_dying.html?source=email#.UaZ4PLZYveM.email",
+			"status": "pending"
+		},
+		{
+			"url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=49FEL3X2JM2VW",
+			"status": "pending"
+		},
+		{
+			"url": "http://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=4141+Old+Sibley+Memorial+Highway,+Eagan,+MN&aq=0&oq=4141+Old+Sibley&sll=37.0625,-95.677068&sspn=44.879582,105.117187&t=m&ie=UTF8&hq=&hnear=4141+Old+Sibley+Memorial+Hwy,+Eagan,+Minnesota+55122&ll=44.808701,-93.225069&spn=0.01973,0.051327&z=14",
+			"status": "pending"
 		}
 	],
+	"filenames": [],
 	"extensions": [
 		{
 			"extension": "gif",
+			"status": "allowed"
+		},
+		{
+			"extension": "jpg",
+			"status": "allowed"
+		},
+		{
+			"extension": "pdf",
+			"status": "allowed"
+		},
+		{
+			"extension": "png",
+			"status": "allowed"
+		},
+		{
+			"extension": "jpeg",
 			"status": "allowed"
 		}
 	]
