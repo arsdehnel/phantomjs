@@ -1,0 +1,410 @@
+[
+	{
+		"url": "http://aslaninst.com/",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "#content",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=140",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=1118",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=1075",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=1561",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=1549",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=248",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=287",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=356",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=839",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=295",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=1049",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=336",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=360",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=1180",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=449",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=98",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=1268",
+		"status": "ALLOWED (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/butterfly.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:info@aslaninst.com",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/Aslan-Front-Door.png",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/Aslan-Photo-Shoot-July-11-2012-125_1-150x225.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2014/07/Gary-Beaver-Spotlight.pdf",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://www.constantcontact.com/safesubscribe.jsp",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://www.constantcontact.com/jmml/email-newsletter.jsp",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://www.facebook.com/sharer.php",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:lyndallj@aslaninst.com?subject=email%20subject",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/TomJ-Face.jpeg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:drthjo@aslaninst.com?subject=email%20subject",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "mailto:eloisee@aslaninst.com?subject=email%20subject",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "mailto:eloisee@aslaninst.com",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/Yvette-Small-Pic.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:yvette.erasmus@gmail.com?subject=website%20inquiry",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "mailto:yvette@aslaninst.com?subject=from%20website",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=374",
+		"status": "ALLOWED (404)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2014/01/Claudine-Arndt.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://www.wellnesswithclaudine.com/",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/Catherine-Carpenter-Touchup-Copy.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://catherinecarpenter.com",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2014/01/Anne-Endrizzi.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:anneegyrl@gmail.com",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://www.therasolutions.net",
+		"status": "CHECK (null)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/Aslan-Photo-Shoot-July-11-2012-050_1-150x225.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://www.PeacefulPracticeMN.com/",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/Aslan-Photo-Shoot-July-11-2012-038_1-150x225.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:MartinLahn@aslaninst.com?subject=email%20subject",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/Aslan-Photo-Shoot-July-11-2012-019_1-150x225.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:rochelle@aslaninst.com?subject=email%20subject",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://www.awakeninglove.org",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/Bonnie-Resnick-Touchup-Copy.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:bgresnick@aslaninst.com?subject=email%20subject",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "mailto:garyb@aslaninst.com?subject=email%20subject",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://www.GaryRBeaver.com",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/Christine-Larson1.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:christine@aslaninst.com?subject=from%20webpage",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://www.christinemlarson.com",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/Tina-1-Copy.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:tinag@aslaninst.com?subject=email%20subject",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2014/01/Connie-Cohen.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:conniec@aslaninst.com?subject=from%20webpage",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://www.connietherapy.com",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2014/01/Cheryl-Thapa.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://www.evolvtherapy.com",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:cherylt@aslaninst.com?subject=from%20webpage",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2014/01/Melanie-Alford.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:melanie@aslaninst.com?subject=from%20webpage",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://www.melaniealford.com",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/judi-ross-pic.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://www.JudiRossHolisticTherapy.com",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/?page_id=1073",
+		"status": "ALLOWED (404)"
+	},
+	{
+		"url": "https://events.r20.constantcontact.com/register/event?oeidk=a07e5ne6oi271a3a119",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2014/04/South-Africa-Road.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2014/04/South-Aftrica-Jenny-at-Granny-Margaret’s-food-kitchen-for-AIDS-Orphans.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2014/04/bali.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:johnsonlyndall@gmail.com",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/conf-room-view-1.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:info@aslaninst.com?subject=Conference%20Room%20Rental%20Inquiry",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/conf-room-view-2.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:info@aslaninst.com?subject=conference%20room%20agreement%20form%20request",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "mailto:info@aslaninst.com?subject=booking%20inquiry%20",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://tedxtalks.ted.com/video/TEDxBozeman-Pete-Strom-Butter-S;Recent",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://www.ted.com/talks/judy_macdonald_johnston_prepare_for_a_good_end_of_life.html?source=email#.UaZ5zkSOCIo.email",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://www.ted.com/talks/peter_saul_let_s_talk_about_dying.html?source=email#.UaZ4PLZYveM.email",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://www.couplecommunication.com/",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:yvettee@aslaninst.com",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "mailto:yvette.erasmus@gmail.com?subject=CC%20Website%20Inquiry",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://wordpress.org/",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:smfreimark@yahoo.com?subject=more%20information?",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2013/01/BotswanaMap.gif",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=49FEL3X2JM2VW",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2013/01/BotswanaBird.gif",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2013/01/BotswanaFlower.gif",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2013/01/BotswanaCat.gif",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2013/01/BotswanaElephant.gif",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2012/03/Lyndall-this-one1.jpg",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "mailto:lyndallj@aslaninst.com?subject=inquiry%20from%20webpage",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "mailto:drthjo@aslaninst.com?subject=inquiry%20from%20webpage",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "mailto:eloisee@aslaninst.com?subject=inquiry%20from%20webpage",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "mailto:yvette@aslaninst.com?subject=inquiry%20from%20webpage",
+		"status": "BLOCKED"
+	},
+	{
+		"url": "http://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=4141+Old+Sibley+Memorial+Highway,+Eagan,+MN&aq=0&oq=4141+Old+Sibley&sll=37.0625,-95.677068&sspn=44.879582,105.117187&t=m&ie=UTF8&hq=&hnear=4141+Old+Sibley+Memorial+Hwy,+Eagan,+Minnesota+55122&ll=44.808701,-93.225069&spn=0.01973,0.051327&z=14",
+		"status": "CHECK (200)"
+	},
+	{
+		"url": "http://aslaninst.com/wp-content/uploads/2013/02/1weblion.jpg",
+		"status": "CHECK (200)"
+	}
+]

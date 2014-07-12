@@ -16,35 +16,35 @@
 	"domains": [
 		{
 			"domain": "www.facebook.com",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"domain": "www.constantcontact.com",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"domain": "events.r20.constantcontact.com",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"domain": "tedxtalks.ted.com",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"domain": "www.ted.com",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"domain": "www.paypal.com",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"domain": "maps.google.com",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"domain": "wordpress.org",
-			"status": "blocked"
+			"status": "check"
 		}
 	],
 	"urls": [
@@ -58,74 +58,74 @@
 		},
 		{
 			"url": "http://www.wellnesswithclaudine.com/",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"url": "http://catherinecarpenter.com",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"url": "http://www.therasolutions.net",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"url": "http://www.PeacefulPracticeMN.com/",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"url": "http://www.awakeninglove.org",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"url": "http://www.GaryRBeaver.com",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"url": "http://www.christinemlarson.com",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"url": "http://www.connietherapy.com",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"url": "http://www.evolvtherapy.com",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"url": "http://www.melaniealford.com",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"url": "http://www.JudiRossHolisticTherapy.com",
-			"status": "blocked"
+			"status": "check"
 		},
 		{
 			"url": "http://www.couplecommunication.com/",
-			"status": "blocked"
+			"status": "check"
 		}
 	],
 	"filenames": [],
 	"extensions": [
 		{
 			"extension": "gif",
-			"status": "allowed"
+			"status": "check"
 		},
 		{
 			"extension": "jpg",
-			"status": "allowed"
+			"status": "check"
 		},
 		{
 			"extension": "pdf",
-			"status": "allowed"
+			"status": "check"
 		},
 		{
 			"extension": "png",
-			"status": "allowed"
+			"status": "check"
 		},
 		{
 			"extension": "jpeg",
-			"status": "allowed"
+			"status": "check"
 		}
 	]
 }
