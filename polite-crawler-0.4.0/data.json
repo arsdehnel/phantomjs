@@ -1,0 +1,25 @@
+{
+	"protocols": [
+		{
+			"protocol": "http",
+			"status": false
+		},
+		{
+			"protocol": "https",
+			"status": false
+		},
+		{
+			"protocol": "mailto",
+			"status": "blocked"
+		}
+	],
+	"domains": [],
+	"urls": [
+		{
+			"url": "https://wwwpprd.myhondaperformancecenter.com/ahmperfcenter/logoninit.action",
+			"status": "allowed"
+		}
+	],
+	"filenames": [],
+	"extensions": []
+}

@@ -1,0 +1,1 @@
+if no data.json is provided create a template
